@@ -334,6 +334,9 @@ section#sectionMain {
         justify-self: start;
         align-self: center;
     }
+    .sectionObras_p p {
+        font-size: small;
+    }
  
 }
 
