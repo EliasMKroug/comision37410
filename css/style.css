@@ -40,9 +40,11 @@ section#sectionMain {
     justify-items: center;
     align-items: center;
     padding: 5px;
+    
 }
 .header__div1 img {
     grid-column-start: 2;
+    transition: all 0.5s;
 } 
 .headerMenu {
     display: grid;
@@ -51,9 +53,11 @@ section#sectionMain {
     justify-content: start;
     padding: 5px;
     background-color: rgb(105, 110, 137);
+    transition: all 1s;
 }
 .headerMenu__titulo {
     background-color: rgb(105, 110, 137);
+    transition: all 1s;
 }
 .headerMenu-lista {
     list-style-type: none;
@@ -121,6 +125,7 @@ section#sectionMain {
 .sectionIndex__img{
     width: 100%;
     height: auto;
+    transition: all 2s;
 }
 .sectionIndex__div2 {
     display: grid;
@@ -171,6 +176,29 @@ section#sectionMain {
 .sectionObras_img {
     width: 100%;
     height: auto;
+    transition: all 2s;
+}
+
+/* TRANSICIONES */
+
+
+.headerMenu__item a:hover {
+    background-color: rgb(74, 61, 61);
+    height: 50px;
+}
+.header__div1 img:hover {
+    transform: translate(-10px,0px);
+}
+
+/* TRANSICIONES INDEX */
+.sectionIndex__img:hover {
+    transform: translate(20px,0px);
+}
+
+/* TRANSICIONES OBRAS */
+
+.sectionObras_img:hover {
+    transform: translate(20px,0px);
 }
 
 /* DISEÑO RESPONSIVE */
@@ -413,3 +441,6 @@ section#sectionMain {
     }
     
 }
+
+
+
